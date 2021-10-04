@@ -1,0 +1,233 @@
+/*========================================================*/
+  /* global Style */
+/*========================================================*/
+
+body {
+  width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*========================================================*/
+  /* Swiper Style */
+/*========================================================*/
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*========================================================*/
+  /* navbar Style */
+/*========================================================*/
+.navbar-nav .nav-item {
+    margin-left: 10px;
+}
+
+.nav-text, .nav-text:hover, .nav-text:focus {
+    color: #6f6f6f;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-item .dropdown-menu {
+    border: none;
+    margin-top: 10px;
+    border-radius: 0;
+    box-shadow: 0px 20px 60px 0px rgb(238, 237, 237);
+}
+
+.dropdown-item {
+    line-height: 35px;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        margin-bottom: 15px;
+    }
+   .navbar-nav .nav-item {
+        padding-right: auto;
+    }
+    
+    .navbar-nav {
+        margin-top: 25px;
+        width: 60%;
+    }
+
+    .navbar-menu-icon, .navbar-menu-icon:focus {
+        color: black;
+        border-radius: 0;
+        padding: 5px;
+        border-color: black;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    .header-contact-info {
+        display: none;
+    }
+}
+
+.header-contact-info {
+    margin-left: 50px;
+    border-left: 1px solid rgb(0, 0, 0);
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+.header-contact-info a {
+    color: #6f6f6f;
+}
+
+/*========================================================*/
+  /* Header Style */
+/*========================================================*/
+.header-text p:nth-child(1) {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+@media (max-width:992px ) {
+    .header-text p:nth-child(1) {
+        font-size: 30px;
+    }
+}
+
+/*========================================================*/
+  /* Blog Img Style */
+/*========================================================*/
+.about-img {
+    overflow: hidden;
+}
+
+.about-img img {
+    width: 100%;
+    transform: scale(1);
+    transition: 300ms ease transform;
+}
+
+.about-img img:hover {
+    transform: scale(1.08);
+    transition: 300ms ease transform;
+}
+
+/*========================================================*/
+  /* Blog Form Style */
+/*========================================================*/
+.input-group {
+    position: relative;
+}
+
+.input-group .room-1 {
+    width: 100%;
+    flex: none;
+    padding-left: 55px;
+    height: 50px;
+    border-color: black;
+    border-radius: 0;
+}
+
+.input-group .room-1:focus {
+    box-shadow: none;
+}
+
+.input-group label {
+    position: absolute;
+    left: 10px;
+    text-align: center;
+    line-height: 45px;
+    border: none;
+    background-color: transparent;
+    z-index: 9999;
+}
+
+/*========================================================*/
+  /* List Style */
+/*========================================================*/
+.text-tag{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.text-tag:hover {
+    text-decoration: underline;
+}
+
+.page-link {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 35px;
+    color: black;
+    border-color: black;
+    border-radius: 0;
+    font-size: 18px;
+}
+
+.page-link:focus {
+    box-shadow: none;
+    background-color: black;
+    color: white;
+}
+
+
+.page-link:hover {
+    background-color: black;
+    color: white;
+}
+
+/*========================================================*/
+  /* Footer Style */
+/*========================================================*/
+.footer-top-text p {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (max-width:992px ) {
+    .footer-top-text p {
+        font-size: 35px;
+        font-weight: 500;
+    }
+}
